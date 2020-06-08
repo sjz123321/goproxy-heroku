@@ -1,3 +1,20 @@
 {
-    "name": "goproxy server"
+  "name": "goproxy",
+  "description": "Deploy goproxy on Heroku.",
+  "keywords": [
+    "goproxy"
+  ],
+  "env": {
+    "port": {
+      "description": "goproxy port",
+      "value": "443"
+    },
+    "password": {
+      "description": "goproxy password",
+      "value": "pass"
+    }
+  },
+  "website": "https://github.com/snail007/goproxy-heroku",
+  "repository": "https://github.com/snail007/goproxy-heroku",
+  "stack": "container"
 }
