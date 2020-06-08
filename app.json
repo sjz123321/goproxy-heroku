@@ -5,11 +5,11 @@
     "goproxy"
   ],
   "env": {
-    "port": {
+    "PORT": {
       "description": "goproxy port",
       "value": "443"
     },
-    "password": {
+    "PASSWD": {
       "description": "goproxy password",
       "value": "pass"
     }
